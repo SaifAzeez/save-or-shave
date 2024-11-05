@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.charity {
+  margin: 30px 0;
+  font-size: large;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 100%;
+  width: 0; /* Start with width of 0 and expand dynamically */
+  transition: width 0.5s ease;
+}
+
+#sufyan-progress {
+  background-color: #800080; /* Purple color for Sufyan */
+}
+
+#moiz-progress {
+  background-color: #800020; /* Burgundy color for Moiz */
+}
+
+#sufyan-total,
+#moiz-total {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+#leader {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
