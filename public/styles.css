@@ -5,7 +5,10 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f2f5;
+  background-image: url('images/IMG_8584_Original.JPG');
+  background-size: cover; /* Makes the image cover the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .container {
